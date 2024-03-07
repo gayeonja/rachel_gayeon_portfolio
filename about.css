@@ -3,10 +3,6 @@ body {
     margin-right: 50px; 
 }
 
-.all-top {
-    
-}
-
 .introduction-top {
     background-image: url(img/box_top.png);
     background-repeat: no-repeat;
@@ -36,27 +32,105 @@ h1.name {
     font-weight: 300;
 }
 
-#introduction {
+.all-top {
     background-image: url(img/circle.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { 
-    
+@media (max-width: 600px) { 
+    #introduction-text {
+        padding-top: 6%;
+        text-align: center; 
+    }
+    .description {
+        font-size: 13px; 
+    }
+    .name {
+        font-size: 50px; 
+    }
+    .specification {
+        font-size: 15px; 
+    }
+    .school {
+        font-size: 15px; 
+    }
+    #introduction-image {
+        text-align: center;
+    }
+    #introduction-image img {
+        width: 85%; 
+        padding-top: 7%; 
+    }
+    .all-top {
+        background-size: contain; 
+        background-size: 100%;
+        background-position: 0% 13%;
+        height: 100vh;
+        padding-bottom: 50px; 
+    }
+    .bottom-left-box img{
+        width: 12%; 
+        position: absolute;
+        left: 5%;
+        bottom: 5%;
+    }
+    .bottom-right-box img{
+        width: 4%; 
+        position: absolute;
+        right: 6%;
+        bottom: 5%;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
-    
+@media (min-width: 600px) { 
+    #introduction-text {
+        padding-left: 10%; 
+        padding-top: 1%; 
+    }
+    .name {
+        font-size: 75px; 
+    }
+    .specification {
+        font-size: 20px; 
+    }
+    .school {
+        font-size: 20px; 
+    }
+    #introduction-image img {
+        width: 55%; 
+        position: absolute;
+        left: 35%;
+        top: 50%;
+    }
+    .all-top {
+        background-size: contain; 
+        background-size: 80%;
+        background-position: 0% 12%;
+        height: 100vh;
+        padding-bottom: 50px; 
+    }
+    .bottom-left-box img{
+        width: 12%; 
+        position: absolute;
+        left: 5%;
+        bottom: 5%;
+    }
+    .bottom-right-box img{
+        width: 4%; 
+        position: absolute;
+        right: 6%;
+        bottom: 5%;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
+@media (min-width: 1200px) { 
     #introduction-text {
-        padding-left: 160px; 
-        padding-top: 50px; 
+        padding-left: 13%; 
+        padding-top: 3%; 
     }
     .name {
         font-size: 120px; 
@@ -67,16 +141,29 @@ h1.name {
     .school {
         font-size: 24px; 
     }
-    #introduction {
+    .all-top {
         background-size: contain; 
         background-size: 64%;
-        background-position: left 45px top -40px;
+        background-position: 9% 26%;
+        height: 100vh;
         padding-bottom: 50px; 
     }
     #introduction-image img {
         width: 40%; 
         position: absolute;
-        top: 140px; 
-        left: 700px;
+        left: 51%;
+        top: 18%;
+    }
+    .bottom-left-box img{
+        width: 12%; 
+        position: absolute;
+        left: 3%;
+        bottom: 5%;
+    }
+    .bottom-right-box img{
+        width: 4%; 
+        position: absolute;
+        right: 4%;
+        bottom: 5%;
     }
 }
