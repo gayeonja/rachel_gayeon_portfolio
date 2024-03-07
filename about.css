@@ -3,12 +3,29 @@ body {
     margin-right: 50px; 
 }
 
+.all-top {
+    
+}
+
+.introduction-top {
+    background-image: url(img/box_top.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 25px; 
+    padding-right: 35px; 
+}
+
 .description {
     text-align: right;
+    font-size: 20px; 
 }
 
 .name {
     font-weight: 700; 
+}
+
+h1.name {
+    line-height: 1em;
 }
 
 .specification {
@@ -19,3 +36,47 @@ body {
     font-weight: 300;
 }
 
+#introduction {
+    background-image: url(img/circle.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    #introduction-text {
+        padding-left: 160px; 
+        padding-top: 50px; 
+    }
+    .name {
+        font-size: 120px; 
+    }
+    .specification {
+        font-size: 24px; 
+    }
+    .school {
+        font-size: 24px; 
+    }
+    #introduction {
+        background-size: contain; 
+        background-size: 64%;
+        background-position: left 45px top -40px;
+        padding-bottom: 50px; 
+    }
+    #introduction-image img {
+        width: 40%; 
+        position: absolute;
+        top: 140px; 
+        left: 700px;
+    }
+}
