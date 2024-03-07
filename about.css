@@ -1,0 +1,106 @@
+body {
+    margin-left: 50px; 
+    margin-right: 50px; 
+    margin-top: 70px; 
+    font-family: Helvetica, sans-serif;
+}
+
+.about-me {
+    text-align: right;
+    font-weight: 700; 
+}
+
+.about_img {
+    width: 50%; 
+}
+
+.box {
+    width: 100%; 
+    margin-bottom: 4%; 
+}
+
+.about-text {
+    margin-top: 4%; 
+    text-align: center;
+}
+
+.about-text p{
+    font-weight: 300; 
+}
+
+.about-text p > strong{
+    font-weight: bold; 
+}
+
+.stars {
+    margin-top: 4%; 
+    text-align: center;
+}
+
+.before_you_go {
+    margin-top: 4%; 
+    text-align: center;
+}
+
+h2.before {
+    font-weight: 700; 
+}
+
+.spotify-container {
+    text-align: center;
+}
+
+.before_p {
+    margin-top: 1%; 
+    margin-bottom: 4%; 
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 768px) { 
+    h1.about-me{
+        font-size: 60px; 
+        line-height: 1em;
+    }
+    .stars img {
+        width: 5%; 
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .spotify {
+        width: 80%; 
+        display: inline-block;
+        margin-bottom: 25%; 
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    h1.about-me{
+        font-size: 60px; 
+        line-height: 1em;
+    }
+    .stars img {
+        width: 3%; 
+    }
+    .spotify {
+        width: 70%; 
+        display: inline-block;
+        margin-bottom: 15%; 
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    h1.about-me{
+        font-size: 120px; 
+        line-height: 1em;
+    }
+    .stars img {
+        width: 2%; 
+    }
+    .spotify {
+        width: 50%; 
+        display: inline-block;
+        margin-bottom: 5%; 
+    }
+}
