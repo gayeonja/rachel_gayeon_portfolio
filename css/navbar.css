@@ -33,3 +33,13 @@ body {
 .logo {
     font-weight: 700; 
 }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 1200px) {
+    .padding-if-large {
+        padding-right: 10%; 
+    }
+    .padding-rachel {
+        padding-right: 5%; 
+    }
+}
