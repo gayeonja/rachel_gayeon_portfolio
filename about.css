@@ -92,7 +92,7 @@ h2.before {
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
     h1.about-me{
-        font-size: 120px; 
+        font-size: 80px; 
         line-height: 1em;
     }
     .stars img {
