@@ -1,0 +1,19 @@
+.button-center {
+    text-align: center;
+}
+
+.more {
+    font-size: 20.17;
+    border-radius: 20px;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 5px; 
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.more:hover {
+    border: 1px solid rgba(0,0,0,0.1);
+}
