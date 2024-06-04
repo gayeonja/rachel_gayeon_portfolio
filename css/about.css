@@ -1,8 +1,15 @@
 body {
+    font-family: Helvetica, sans-serif;
+}
+
+.space2 {
+    padding: 10%; 
+}
+
+.fake-container {
     margin-left: 50px; 
     margin-right: 50px; 
     margin-top: 70px; 
-    font-family: Helvetica, sans-serif;
 }
 
 .about-me {
@@ -53,6 +60,11 @@ h2.before {
 .before_p {
     margin-top: 1%; 
     margin-bottom: 4%; 
+}
+
+.usc {
+    font-weight: bold;
+    color: #BB1818;
 }
 
 /* Small devices (landscape phones, 576px and up) */
