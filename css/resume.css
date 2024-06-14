@@ -12,7 +12,8 @@ body {
 
 .resume_h1 {
     font-weight: 700; 
-    margin-top: 70px;
+    margin: 0 !important; 
+    padding: 0 !important; 
 }
 
 .resume_top_p {
