@@ -199,8 +199,8 @@ a:hover {
     padding-bottom: 5%;
   }
   .a_work_img2 {
-    width: auto;
-    height: 100%;
+    width: 100%;
+    height: auto;
   }
   .computer {
     width: 70%; 
